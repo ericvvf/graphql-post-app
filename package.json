@@ -1,0 +1,14 @@
+{
+  "name": "graphql-post-app",
+  "version": "1.0.0",
+  "description": "The Blog Post Series App",
+  "main": "index.js",
+  "repository": "https://github.com/ericvvf/graphql-post-app",
+  "author": "Eric Vieira",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1"
+  }
+}
