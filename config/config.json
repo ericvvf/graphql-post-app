@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "db_eric",
+    "password": "admin",
+    "database": "agenda",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "db_eric",
+    "password": "admin",
+    "database": "agenda",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "db_eric",
+    "password": "admin",
+    "database": "agenda",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
