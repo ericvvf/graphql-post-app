@@ -25,6 +25,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false
     }
   }, {
-    tableName: 'Telefone'
+    tableName: 'Telefone',
+    timestamps: false
   });
 };

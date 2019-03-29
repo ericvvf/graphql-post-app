@@ -46,6 +46,7 @@ module.exports = function(sequelize, DataTypes) {
       }
     }
   }, {
-    tableName: 'Endereco'
+    tableName: 'Endereco',
+    timestamps: false
   });
 };
