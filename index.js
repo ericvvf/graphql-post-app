@@ -1,29 +1,16 @@
 const express = require('express')
 const routes = require('./api/http/routes.js')
-// const graphqlHTTP = require('express-graphql')
-// const { buildSchema } = require('graphql')
+const graphqlHTTP = require('express-graphql')
+const { schema } = require('./api/http/graphql/schema')
 
 const app = express()
 
 app.use('/api', routes)
 
-// const schema = buildSchema(`
-//   "The root of it all"
-//   type Query {
-//     "Return a greeting"
-//     hello: String
-//   }
-// `)
-
-// const root = {
-//   hello: () => 'Hello world!'
-// }
-
-// app.use('/graphql', graphqlHTTP({
-//   schema: schema,
-//   rootValue: root,
-//   graphiql: true
-// }))
+app.use('/graphql', graphqlHTTP({
+  schema,
+  graphiql: true
+}))
 
 
 app.listen(3000)

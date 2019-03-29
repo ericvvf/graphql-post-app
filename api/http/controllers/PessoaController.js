@@ -1,5 +1,3 @@
-// const Pessoa = require('../../models/Pessoa')
-
 const models = require('../../models/index')
 
 
